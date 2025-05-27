@@ -75,7 +75,7 @@ article {
   gap: 24px;
 }
 
-figure img {
+.article-img {
   border-radius: 10px;
 }
 
