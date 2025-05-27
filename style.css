@@ -107,3 +107,24 @@ section {
   flex-direction: column;
   gap: 12px;
 }
+
+@media screen and (max-width: 375px) {
+  article {
+    width: 327px;
+  }
+
+  h1.text-preset-1 {
+    font-size: 20px;
+  }
+
+  .text-preset-2 {
+    font-size: 14px;
+  }
+  .text-preset-3 {
+    font-size: 12px;
+  }
+
+  span.text-preset-3-bold {
+    font-size: 12px;
+  }
+}
